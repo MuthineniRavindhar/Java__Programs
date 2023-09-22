@@ -16,10 +16,11 @@ public class AscendingOrder {
 					min=j;
 					
 				}
-				char temp = arr[i];
+				
+			}
+			char temp = arr[i];
 				arr[i]=arr[min];
 				arr[min]=temp;
-			}
 			
 		}
 		System.out.print("The Ascending Order is : ");
