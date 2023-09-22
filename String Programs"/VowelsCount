@@ -1,0 +1,19 @@
+package strings;
+
+public class VowelsCount{
+
+	public static void main(String[] args) {
+		String s="Ravi smart";
+		String s1="aeiouAEIOU";
+		
+		int count=0;
+		for(int i=0; i<s.length(); i++) {
+			char ch=s.charAt(i);
+			if(s1.indexOf(ch)!=-1) {
+//				System.out.println(ch);
+				count++;
+			}
+		}
+		System.out.println("The no.of Vowels are : "+count);
+	}
+}
